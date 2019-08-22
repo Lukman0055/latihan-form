@@ -19,7 +19,7 @@ if (isset($_POST['Input'])) {
 
 echo "Nama Anda   : <b>$nama</b><br>";
 echo "Nilai Ke-1  : <b>$nilai1</b><br>";
-echo "Nilai Ke-2   : <b>$nilai2</b><br>";
+echo "Nilai Ke-2  : <b>$nilai2</b><br>";
 echo "Rata - Rata : <b>$rata</b><br>";
 }
 ?>
