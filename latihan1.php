@@ -14,7 +14,7 @@
         Alamat         :<br> <textarea name="alamat" cols="20" rows="5"></textarea><br>
         Tempat Lahir   :<br> <input type="text" name="tl"><br>
         Tanggal Lair   :<br> <input type="date" name="tg"><br>
-        Asal Sekolah   :<br> <input type="text" name="as"><br>
+        Asal sekolah   :<br> <input type="text" name="as"><br>
         Jenis_Kelamin  :<br> <input type="radio" name="jk" value="Laki-laki" checked>Laki-laki
                          <input type="radio" name="jk" value="Perempaun">Perempaun<br>                        
         Jurusan        :<br> <select name="jurusan">
