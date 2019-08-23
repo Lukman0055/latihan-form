@@ -17,9 +17,9 @@
 
 <?php
 if (isset($_POST['masukan'])) {
-$lk = $_POST['bintang'];
-for($a=1; $a<=$lk; $a++){
-    for($i=$lk; $i>=$a; $i-=1){
+$l = $_POST['bintang'];
+for($a=1; $a<=$l; $a++){
+    for($i=$l; $i>=$a; $i-=1){
  echo "&nbsp";
 
 }
