@@ -9,7 +9,7 @@
 <body>
     <form action="" method="post">
     Masukan Jumlah Bintang 
-        <input type="number" name="bintang" id="">
+        <input type="number" name="yintang" id="">
         <input type="submit" name="masukan" value="simpan">
     </form>
 </body>
@@ -17,7 +17,7 @@
 
 <?php
 if (isset($_POST['masukan'])) {
-$l = $_POST['bintang'];
+$l = $_POST['yintang'];
 for($a=1; $a<=$l; $a++){
     for($i=$l; $i>=$a; $i-=1){
  echo "&nbsp";
