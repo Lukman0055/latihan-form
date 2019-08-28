@@ -27,13 +27,13 @@ if (isset($_POST['Login'])) {
     if (isset($_POST['Login'])) {
         echo "Hobby : ";
         if (isset($_POST['hb1'])) {
-        echo "<li>" . $_POST['hb1'] . "<br>";
+        echo " " . $_POST['hb1'] . "<br>";
         }
         if (isset($_POST['hb2'])) {
-        echo "<li>" . $_POST['hb2'] . "<br>";
+        echo " " . $_POST['hb2'] . "<br>";
         }
         if (isset($_POST['hb3'])) {
-        echo "<li>" . $_POST['hb3'] . "<br>";
+        echo " " . $_POST['hb3'] . "<br>";
         }
         }
     echo "Agama          : $Agama<br>";
