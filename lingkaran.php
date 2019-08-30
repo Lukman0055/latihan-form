@@ -20,7 +20,7 @@
     </fieldset>
 
     <?php
-    if (isset($_GET['simpan'])) {
+    if (isset($_GET['simpan'])) {   
         $sisi = $_GET['s'];
         function lingkaran($s){
             $luas = 3.14 * $s * $s;

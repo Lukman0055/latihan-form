@@ -34,7 +34,7 @@
         return $e;
     }
         $terima = tni($bb, $tb);
-        echo "Berat Badan anda : $bb<br> Tinggi Badan anda : $tb<br> Status Anda : $terima";
+        echo "Berat Badan anda : $bb<br> Tinggi Badan anda : $tb<br>Status Anda : $terima";
     }
     ?>
 </body>
